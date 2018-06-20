@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 5.times do
-  Hero.create(name: Faker::WorldOfWarcraft.hero)
+  Hero.create(name: Faker::WorldOfWarcraft.hero, faction: "")
 end
 
 20.times do
